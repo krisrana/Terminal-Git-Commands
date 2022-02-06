@@ -1,15 +1,16 @@
 # Terminal / Bash Shell
 
-* / - root
-* cd – change directory/folder
-* ls – list [ file, folder in current directory ]
-* cd ~ - Home directory
-* mkdir – make directory
-* rm – remove file only
-* rm -rf – remove directory
-* touch – will create file, eg – touch file.csv
-* In powershell (Windows Machine) – echo $null >> file.csv
+- / - root
+- cd – change directory/folder
+- ls – list [ file, folder in current directory ]
+- cd ~ - Home directory
+- mkdir – make directory
+- rm – remove file only
+- rm -rf – remove directory
+- touch – will create file, eg – touch file.csv
+- In powershell (Windows Machine) – echo $null >> file.csv
 
+Sourced from [Link here](https://github.com/joshnh/Git-Commands), With addiional command I find helpful.
 # Git Commands
 
 ## Getting & Creating Projects
@@ -21,13 +22,14 @@
 
 ## Basic Snapshotting
 
-| Command                            | Description                                       |
-| ---------------------------------- | ------------------------------------------------- |
-| `git status`                       | Check status                                      |
-| `git add [file-name.txt]`          | Add a file to the staging area                    |
-| `git add -A` or `git add .`        | Add all new and changed files to the staging area |
-| `git commit -m "[commit message]"` | Commit changes                                    |
-| `git rm -r [file-name.txt]`        | Remove a file (or folder)                         |
+| Command                               | Description                                       |
+| ------------------------------------- | ------------------------------------------------- |
+| `git status`                          | Check status                                      |
+| `git add [file-name.txt]`             | Add a file to the staging area                    |
+| `git add -A` or `git add .`           | Add all new and changed files to the staging area |
+| `git commit -m "[commit message]"`    | Commit changes                                    |
+| `git commit -a -m "[commit message]"` | Commit changes - Tracked files only               |
+| `git rm -r [file-name.txt]`           | Remove a file (or folder)                         |
 
 ## Branching & Merging
 
