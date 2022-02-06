@@ -10,7 +10,8 @@
 - touch – will create file, eg – touch file.csv
 - In powershell (Windows Machine) – echo $null >> file.csv
 
-Sourced from [Link here](https://github.com/joshnh/Git-Commands), With addiional command I find helpful.
+### Sourced from [Link here](https://github.com/joshnh/Git-Commands), With additional commands, I find helpful.
+### Git Documentation Reference: [Link](https://git-scm.com/docs)
 
 # Git Commands
 
@@ -34,7 +35,7 @@ Sourced from [Link here](https://github.com/joshnh/Git-Commands), With addiional
 | `git checkout [commit ID]`            | Traverse between previous commits                         |
 | `git checkout master`                 | To go back to latest commit                               |
 | `git revert [commit ID]`              | Goes back to one commit at a time                         |
-| `git reset --hard [commit ID]`        | Goes back to commit based on ID (Use Cautious using this) |
+| `git reset --hard|--soft|--mix [commit ID]`        | Goes back to commit based on ID (Use Cautious using this) |
 
 ## Inspection & Comparison
 
