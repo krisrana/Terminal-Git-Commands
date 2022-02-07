@@ -38,7 +38,7 @@
 | `git revert [commit ID]`                      | Goes back to one commit at a time                         |
 | `git reset --hard/--soft/--mixed [commit ID]` | Goes back to commit based on ID (Use Cautious using this) |
 
-![Git Tree Movement](../gitTreeMovement.jpeg)
+![Git Tree Movement](./gitTreeMovement.jpeg)
 
 ##### Image source: [link](https://miro.medium.com/max/638/1*Z4DotRF7nQj6RZHpHHJTWw.jpeg)
 
@@ -83,4 +83,3 @@
 | `git pull origin [branch name]`                                                   | Pull changes from remote repository                         |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git`     | Add a remote repository                                     |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH                     |
-
