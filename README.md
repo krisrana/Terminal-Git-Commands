@@ -34,7 +34,7 @@
 | `git commit -a -m "[commit message]"`         | Commit changes - Tracked files only                       |
 | `git rm -r [file-name.txt]`                   | Remove a file (or folder)                                 |
 | `git checkout [commit ID]`                    | Traverse between previous commits                         |
-| `git checkout master`                         | To go back to latest commit                               |
+| `git checkout master`                         | To go back to latest commit or master branch              |
 | `git revert [commit ID]`                      | Goes back to one commit at a time                         |
 | `git reset --hard/--soft/--mixed [commit ID]` | Goes back to commit based on ID (Use Cautious using this) |
 
