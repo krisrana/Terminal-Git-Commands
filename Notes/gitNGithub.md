@@ -11,6 +11,7 @@
 - In powershell (Windows Machine) – echo $null >> file.csv
 
 ### Sourced from [Link here](https://github.com/joshnh/Git-Commands), With additional commands, I find helpful.
+
 ### Git Documentation Reference: [Link](https://git-scm.com/docs)
 
 # Git Commands
@@ -24,18 +25,22 @@
 
 ## Basic Snapshotting & Traversing
 
-| Command                               | Description                                               |
-| ------------------------------------- | --------------------------------------------------------- |
-| `git status`                          | Check status                                              |
-| `git add [file-name.txt]`             | Add a file to the staging area                            |
-| `git add -A` or `git add .`           | Add all new and changed files to the staging area         |
-| `git commit -m "[commit message]"`    | Commit changes                                            |
-| `git commit -a -m "[commit message]"` | Commit changes - Tracked files only                       |
-| `git rm -r [file-name.txt]`           | Remove a file (or folder)                                 |
-| `git checkout [commit ID]`            | Traverse between previous commits                         |
-| `git checkout master`                 | To go back to latest commit                               |
-| `git revert [commit ID]`              | Goes back to one commit at a time                         |
-| `git reset --hard|--soft|--mix [commit ID]`        | Goes back to commit based on ID (Use Cautious using this) |
+| Command                                       | Description                                               |
+| --------------------------------------------- | --------------------------------------------------------- |
+| `git status`                                  | Check status                                              |
+| `git add [file-name.txt]`                     | Add a file to the staging area                            |
+| `git add -A` or `git add .`                   | Add all new and changed files to the staging area         |
+| `git commit -m "[commit message]"`            | Commit changes                                            |
+| `git commit -a -m "[commit message]"`         | Commit changes - Tracked files only                       |
+| `git rm -r [file-name.txt]`                   | Remove a file (or folder)                                 |
+| `git checkout [commit ID]`                    | Traverse between previous commits                         |
+| `git checkout master`                         | To go back to latest commit                               |
+| `git revert [commit ID]`                      | Goes back to one commit at a time                         |
+| `git reset --hard/--soft/--mixed [commit ID]` | Goes back to commit based on ID (Use Cautious using this) |
+
+![Git Tree Movement](../gitTreeMovement.jpeg)
+
+##### Image source: [link](https://miro.medium.com/max/638/1*Z4DotRF7nQj6RZHpHHJTWw.jpeg)
 
 ## Inspection & Comparison
 
@@ -78,3 +83,4 @@
 | `git pull origin [branch name]`                                                   | Pull changes from remote repository                         |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git`     | Add a remote repository                                     |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH                     |
+
